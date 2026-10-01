@@ -2,22 +2,41 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ayush Projects</title>
+<title>Ayush - All Projects</title>
 <style>
-body{margin:0;font-family:sans-serif;background:#111;color:white;text-align:center;padding:30px}
-h1{color:#00d5ff}
-a{display:block;background:white;color:black;padding:18px;margin:15px auto;max-width:350px;border-radius:12px;text-decoration:none;font-weight:bold;font-size:19px}
-a:hover{background:#00d5ff}
+body{margin:0;font-family:sans-serif;background:#0f172a;color:white;text-align:center;padding:30px}
+h1{color:#38bdf8;margin-bottom:5px}
+p{color:#94a3b8}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:700px;margin:30px auto}
+.card{background:white;color:#0f172a;padding:25px;border-radius:15px}
+.card a{text-decoration:none;color:#6a11cb;font-weight:bold;font-size:19px;display:block}
+.card span{font-size:13px;color:#666}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<h1>My All Projects 🚀</h1>
-<p>Niche click karo, project khul jayega</p>
 
-<a href="https://ayush-web526.github.io/weather-app/">1. Weather App ⛅</a>
-<a href="https://ayush-web526.github.io/calculator/">2. Calculator 🧮</a>
-<a href="https://ayush-web526.github.io/todo/">3. Todo App ✅</a>
-<a href="https://ayush-web526.github.io/portfolio/">4. My Portfolio 💼</a>
+<h1>My Projects 🚀</h1>
+<p>Ek link pe mere saare apps</p>
+
+<div class="grid">
+  <div class="card">
+    <a href="https://ayush-web526.github.io/weather-app/">Weather App ⛅</a>
+    <span>Live City Weather</span>
+  </div>
+  <div class="card">
+    <a href="https://ayush-web526.github.io/calculator/">Calculator 🧮</a>
+    <span>Simple Calculator</span>
+  </div>
+  <div class="card">
+    <a href="https://ayush-web526.github.io/portfolio/">Portfolio 💼</a>
+    <span>My Resume Website</span>
+  </div>
+  <div class="card">
+    <a href="https://ayush-web526.github.io/todo/">Todo App ✅</a>
+    <span>Daily Tasks</span>
+  </div>
+</div>
 
 </body>
 </html>
